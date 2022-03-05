@@ -1,0 +1,271 @@
+[01:01:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:01:35] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:01:35] [main/INFO] [LaunchWrapper]: Loading tweak class name com.mumfrey.liteloader.launch.LiteLoaderTweaker
+[01:01:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:01:35] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[01:01:35] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_311, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_311\jre
+[01:01:36] [main/INFO] [FML]: Searching D:\1.12\.minecraft\mods for mods
+[01:01:36] [main/INFO] [FML]: Searching D:\1.12\.minecraft\mods\1.12.2 for mods
+[01:01:36] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from liquidbounce.jar
+[01:01:36] [main/INFO] [LaunchWrapper]: Calling tweak class com.mumfrey.liteloader.launch.LiteLoaderTweaker
+[01:01:36] [main/INFO] [LiteLoader]: Bootstrapping LiteLoader 1.12.2
+[01:01:36] [main/INFO] [LiteLoader]: Registering API provider class com.mumfrey.liteloader.client.api.LiteLoaderCoreAPIClient
+[01:01:36] [main/INFO] [LiteLoader]: Spawning API provider class 'com.mumfrey.liteloader.client.api.LiteLoaderCoreAPIClient' ...
+[01:01:36] [main/INFO] [LiteLoader]: API provider class 'com.mumfrey.liteloader.client.api.LiteLoaderCoreAPIClient' provides API 'liteloader'
+[01:01:36] [main/INFO] [LiteLoader]: Initialising API 'liteloader' ...
+[01:01:36] [main/ERROR] [mixin]: Catching
+org.spongepowered.asm.service.ServiceInitialisationException: ModLauncher is not available
+	at org.spongepowered.asm.service.modlauncher.MixinServiceModLauncherBootstrap.bootstrap(MixinServiceModLauncherBootstrap.java:52) ~[liquidbounce.jar:?]
+	at org.spongepowered.asm.service.MixinService.runBootServices(MixinService.java:79) [liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.service.MixinService.<init>(MixinService.java:72) [liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.service.MixinService.getInstance(MixinService.java:92) [liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.service.MixinService.boot(MixinService.java:102) [liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.launch.MixinBootstrap.<clinit>(MixinBootstrap.java:76) [liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at com.mumfrey.liteloader.launch.LiteLoaderTweaker.onPreInit(LiteLoaderTweaker.java:383) [liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at com.mumfrey.liteloader.launch.LiteLoaderTweaker.acceptOptions(LiteLoaderTweaker.java:285) [liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:114) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[01:01:36] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.5 Source=file:/D:/1.12/.minecraft/libraries/com/mumfrey/liteloader/1.12.2-SNAPSHOT/liteloader-1.12.2-SNAPSHOT.jar Service=LaunchWrapper Env=CLIENT
+[01:01:39] [main/WARN] [FML]: The coremod net.ccbluex.liquidbounce.injection.forge.TransformerLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[01:01:39] [main/WARN] [FML]: The coremod TransformerLoader (net.ccbluex.liquidbounce.injection.forge.TransformerLoader) is not signed!
+[01:01:39] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[01:01:39] [main/INFO] [LiteLoader]: LiteLoader begin PREINIT...
+[01:01:39] [main/INFO] [LiteLoader]: Initialising Loader properties...
+[01:01:39] [main/INFO] [LiteLoader]: Setting up logger...
+[01:01:39] [main/INFO] [LiteLoader]: LiteLoader 1.12.2 starting up...
+[01:01:39] [main/INFO] [LiteLoader]: Active Pack: 1.12.2-SNAPSHOT-r4CC2BB0-b4-4
+[01:01:39] [main/INFO] [LiteLoader]: Java reports OS="windows 10"
+[01:01:39] [main/INFO] [LiteLoader]: Adding supported mod class prefix 'LiteMod'
+[01:01:39] [main/INFO] [LiteLoader]: Enumerating class path...
+[01:01:39] [main/INFO] [LiteLoader]: Class path separator=";"
+[01:01:39] [main/INFO] [LiteLoader]: Class path entries=(
+   classpathEntry=D:\1.12\.minecraft\libraries\com\mojang\patchy\1.3.9\patchy-1.3.9.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\com\google\guava\guava\21.0\guava-21.0.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\com\mojang\realms\1.10.22\realms-1.10.22.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.15.0\log4j-core-2.15.0.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\net\minecraftforge\forge\1.12.2-14.23.5.2860\forge-1.12.2-14.23.5.2860.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\ow2\asm\asm-debug-all\5.2\asm-debug-all-5.2.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\jline\jline\3.5.1\jline-3.5.1.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2_mc\scala-continuations-library_2.11-1.0.2_mc.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2_mc\scala-continuations-plugin_2.11.1-1.0.2_mc.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar
+   classpathEntry=D:\1.12\.minecraft\libraries\com\mumfrey\liteloader\1.12.2-SNAPSHOT\liteloader-1.12.2-SNAPSHOT.jar
+   classpathEntry=D:\1.12\.minecraft\versions\1.12.2\1.12.2.jar
+   classpathEntry=authlib-injector.jar
+)
+[01:01:39] [main/INFO] [LiteLoader]: Registering discovery module EnumeratorModuleClassPath: [<Java Class Path>]
+[01:01:39] [main/INFO] [LiteLoader]: Registering discovery module EnumeratorModuleFolder: [D:\1.12\.minecraft\mods]
+[01:01:39] [main/INFO] [LiteLoader]: Registering discovery module EnumeratorModuleFolder: [D:\1.12\.minecraft\mods\1.12.2]
+[01:01:39] [main/INFO] [LiteLoader]: Registering enumerator plugin DefaultEnumeratorPlugin: [com.mumfrey.liteloader.core.api.DefaultEnumeratorPlugin@58be6e8]
+[01:01:39] [main/INFO] [LiteLoader]: Discovering valid mod files in folder D:\1.12\.minecraft\mods
+[01:01:39] [main/INFO] [LiteLoader]: Inspecting jar metadata in 'liquidbounce.jar'
+[01:01:39] [main/INFO] [LiteLoader]: Ignoring D:\1.12\.minecraft\mods\liquidbounce.jar
+[01:01:39] [main/INFO] [LiteLoader]: Discovering valid mod files in folder D:\1.12\.minecraft\mods\1.12.2
+[01:01:39] [main/INFO] [LiteLoader]: Discovering tweaks on class path...
+[01:01:39] [main/INFO] [LiteLoader]: Baking listener list for EnumerationObserver with 1 listeners
+[01:01:40] [main/INFO] [LiteLoader]: Registering discovered mod files in folder D:\1.12\.minecraft\mods
+[01:01:40] [main/INFO] [LiteLoader]: Registering discovered mod files in folder D:\1.12\.minecraft\mods\1.12.2
+[01:01:40] [main/INFO] [LiteLoader]: Initialising LiteLoader Mixins
+[01:01:40] [main/INFO] [LiteLoader]: LiteLoader PREINIT complete
+[01:01:40] [main/INFO] [LiteLoader]: Injecting required class transformer 'com.mumfrey.liteloader.transformers.event.EventProxyTransformer'
+[01:01:40] [main/INFO] [LiteLoader]: Injecting required class transformer 'com.mumfrey.liteloader.launch.LiteLoaderTransformer'
+[01:01:40] [main/INFO] [LiteLoader]: Injecting required class transformer 'com.mumfrey.liteloader.client.transformers.CrashReportTransformer'
+[01:01:40] [main/INFO] [LiteLoader]: Queuing required class transformer 'com.mumfrey.liteloader.transformers.event.EventTransformer'
+[01:01:40] [main/INFO] [LiteLoader]: Queuing required class transformer 'com.mumfrey.liteloader.common.transformers.LiteLoaderPacketTransformer'
+[01:01:40] [main/INFO] [LiteLoader]: Queuing required class transformer 'com.mumfrey.liteloader.transformers.event.json.ModEventInjectionTransformer'
+[01:01:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:01:40] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[01:01:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:01:40] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[01:01:40] [main/INFO] [LaunchWrapper]: Loading tweak class name com.mumfrey.liteloader.launch.LiteLoaderTweaker$PreInitTweaker
+[01:01:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:01:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:01:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:01:44] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[01:01:44] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[01:01:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:01:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:01:44] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[01:01:44] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@34acbc60
+[01:01:44] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[01:01:44] [main/INFO] [LaunchWrapper]: Calling tweak class com.mumfrey.liteloader.launch.LiteLoaderTweaker$PreInitTweaker
+[01:01:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:01:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:01:44] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker has already been visited -- skipping
+[01:01:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:01:46] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[01:01:46] [main/INFO] [LiteLoader]: Injecting downstream transformers
+[01:01:46] [main/INFO] [LiteLoader]: Injecting additional class transformer class 'com.mumfrey.liteloader.transformers.event.EventTransformer'
+[01:01:46] [main/INFO] [LiteLoader]: Injecting additional class transformer class 'com.mumfrey.liteloader.common.transformers.LiteLoaderPacketTransformer'
+[01:01:46] [main/INFO] [LiteLoader]: Injecting additional class transformer class 'com.mumfrey.liteloader.transformers.event.json.ModEventInjectionTransformer'
+[01:01:46] [main/INFO] [LiteLoader]: FML detected, switching to searge mappings
+[01:01:47] [main/FATAL] [mixin]: Mixin apply failed mixins.liteloader.client.json:MixinMinecraft -> net.minecraft.client.Minecraft: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException mixins.liteloader.client.json:MixinMinecraft->@Inject::handler$onMouseHeld$zda000(ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V cannot inject into net/minecraft/client/Minecraft::func_147115_a(Z)V merged by net.ccbluex.liquidbounce.injection.forge.mixins.client.MixinMinecraft with priority 1000
+org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: mixins.liteloader.client.json:MixinMinecraft->@Inject::handler$onMouseHeld$zda000(ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V cannot inject into net/minecraft/client/Minecraft::func_147115_a(Z)V merged by net.ccbluex.liquidbounce.injection.forge.mixins.client.MixinMinecraft with priority 1000
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.checkTarget(InjectionInfo.java:437) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.findMethods(InjectionInfo.java:407) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:172) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:159) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:151) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo.<init>(CallbackInjectionInfo.java:44) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:480) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1179) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:900) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:304) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:267) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:353) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.apply(MixinTransformer.java:724) [liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.applyMixins(MixinTransformer.java:703) [liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:509) [liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72) [liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) [launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) [?:1.8.0_311]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) [?:1.8.0_311]
+	at net.minecraft.client.main.Main.main(SourceFile:38) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_311]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_311]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_311]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_311]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[01:01:47] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [mixins.liteloader.client.json:MixinMinecraft] from phase [DEFAULT] in config [mixins.liteloader.client.json] FAILED during APPLY
+[01:01:47] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.handleMixinError(MixinTransformer.java:779)
+[01:01:47] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.handleMixinApplyError(MixinTransformer.java:732)
+[01:01:47] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:513)
+[01:01:47] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72)
+[01:01:47] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279)
+[01:01:47] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176)
+[01:01:47] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+[01:01:47] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+[01:01:47] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at net.minecraft.client.main.Main.main(SourceFile:38)
+[01:01:47] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[01:01:47] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[01:01:47] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[01:01:47] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[01:01:47] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[01:01:47] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: Caused by: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: mixins.liteloader.client.json:MixinMinecraft->@Inject::handler$onMouseHeld$zda000(ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V cannot inject into net/minecraft/client/Minecraft::func_147115_a(Z)V merged by net.ccbluex.liquidbounce.injection.forge.mixins.client.MixinMinecraft with priority 1000
+[01:01:47] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.checkTarget(InjectionInfo.java:437)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.findMethods(InjectionInfo.java:407)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:172)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:159)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:151)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo.<init>(CallbackInjectionInfo.java:44)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:480)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1179)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:900)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:304)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:267)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:353)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.apply(MixinTransformer.java:724)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.applyMixins(MixinTransformer.java:703)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:509)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:635]: 	... 12 more
+[01:01:47] [main/ERROR] [LaunchWrapper]: Unable to launch
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_311]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_311]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_311]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_311]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/Minecraft
+	at net.minecraft.client.main.Main.main(SourceFile:38) ~[Main.class:?]
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.Minecraft
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_311]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_311]
+	at net.minecraft.client.main.Main.main(SourceFile:38) ~[Main.class:?]
+	... 6 more
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:521) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_311]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_311]
+	at net.minecraft.client.main.Main.main(SourceFile:38) ~[Main.class:?]
+	... 6 more
+Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [mixins.liteloader.client.json:MixinMinecraft] from phase [DEFAULT] in config [mixins.liteloader.client.json] FAILED during APPLY
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.handleMixinError(MixinTransformer.java:779) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.handleMixinApplyError(MixinTransformer.java:732) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:513) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_311]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_311]
+	at net.minecraft.client.main.Main.main(SourceFile:38) ~[Main.class:?]
+	... 6 more
+Caused by: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: mixins.liteloader.client.json:MixinMinecraft->@Inject::handler$onMouseHeld$zda000(ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V cannot inject into net/minecraft/client/Minecraft::func_147115_a(Z)V merged by net.ccbluex.liquidbounce.injection.forge.mixins.client.MixinMinecraft with priority 1000
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.checkTarget(InjectionInfo.java:437) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.findMethods(InjectionInfo.java:407) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:172) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:159) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:151) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo.<init>(CallbackInjectionInfo.java:44) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:480) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1179) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:900) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:304) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:267) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:353) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.apply(MixinTransformer.java:724) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.applyMixins(MixinTransformer.java:703) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:509) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72) ~[liteloader-1.12.2-SNAPSHOT.jar:1.12.2-SNAPSHOT+jnks-b4.git-4cc2bb00c8eff08863c9f7625be08983951546a5]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_311]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_311]
+	at net.minecraft.client.main.Main.main(SourceFile:38) ~[Main.class:?]
+	... 6 more
+[01:01:47] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: net.minecraftforge.fml.relauncher.FMLSecurityManager$ExitTrappedException
+[01:01:47] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.relauncher.FMLSecurityManager.checkPermission(FMLSecurityManager.java:49)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.SecurityManager.checkExit(SecurityManager.java:761)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.Runtime.exit(Runtime.java:107)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.System.exit(System.java:971)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:138)
+[01:01:47] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
